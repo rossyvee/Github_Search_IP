@@ -26,11 +26,7 @@ The site uses the Github API to perform searches on Github, and display the resu
 ## Requirements
 * A good internet connection
 ## set up instruction and installation
- Clone or download and unzip the repository from https://github.com/rossyvee/Angular-quotes-app
-If you have git Use this command git clone * to clone the project.
-Run ng serve from your terminal
-
-
+ Clone this repository  from https://github.com/rossyvee/Github_Search_IP and navigate into that directory. (2) Run npm install to install all the application dependancies (3) Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
 ## Behaviour Drive and DEvelopment
 * [x] Input
 User Accesses the Landing Page
