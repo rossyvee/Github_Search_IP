@@ -5,10 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CardHighlightDirective } from './directive/card-highlight.directive';
+import { UserProfileComponent } from './components/user-profile/user-profile.component';
+import { HomeComponent } from './components/home/home.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 @NgModule({
   declarations: [
     AppComponent,
-    CardHighlightDirective
+    CardHighlightDirective,
+    UserProfileComponent,
+    HomeComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
