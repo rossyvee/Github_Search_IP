@@ -1,27 +1,81 @@
 # GithubSearch
+A single page application for searching github users and repositories. The site uses the Github API to perform searches on Github, and display the results to the users.The website is made using angular js framework, and uses components, custom directives, custom pipes, routing modules and classes to make the finished product.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
+## Table of Content
++ [Description](#description)
++ [Installation Requirement]( Requisites)
++ [Technology Used](technology-used)
++ [Live links](#Live links)
++ [Reference](#reference)
++ [Licence](#licence)
++ [Authors Info](#aut)
 
-## Development server
+## Description
+Quotes App is an Angular application that allows users to add quotes,delete quotes. Users can also view hard-coded quotes and their authors. Besides, users can either or dislike quotes based on personal judgement.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+ ![Screenshot] (<img src="screenshot img/Screenshot from 2022-03-21 00-18-35.png">)
 
-## Code scaffolding
+## Technology Used
+* Angular CLI
+* Typescript
+* HTML5
+* CSS
+* JavaScript
+* Node
+* Bootsrap
+* FontAwesome
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Requirements
+* A good internet connection
+## set up instruction and installation
+ Clone or download and unzip the repository from https://github.com/rossyvee/Angular-quotes-app
+If you have git Use this command git clone * to clone the project.
+Run ng serve from your terminal
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Behaviour Drive and DEvelopment
+* [x] Input
+User Accesses the Landing Page
+Quote form displays with input fields for Author, Publisher,quote to be added or
+User Clicks Delete
+* [x] Ouput
+The quote is added/deleted from the page
+User clicks Upvote
+Upvote increases by +1 on each click
+User clicks Downvote
+Downvote decreases by -1 on each click
+[live-link](https://github.com/rossyvee/Angular-quotes-app)
+## Known Bugs
+* There are no known bugs currently. The page works as expected
+## Reference
+  ### The reference materials used in this project can be accessed though this link
+  * [Resource](https://moringaschool.instructure.com/courses/618/assignments/9618)
+  ## Licence
+MIT License
+Copyright (c) [2022] [Roseline Akinyi]
+Permission is  granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+## Authors Info and contributions
+For any comments,suggestions,feedback or inquiries, contact me via email or LinkedIn
+and make contributions to the code
 
-## Running unit tests
+Slack Profile - Rose Akinyi.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+LinkedIn - (Roseline Akinyi: https://www.linkedin.com/in/roseline-akinyi-065875895/)
 
-## Running end-to-end tests
+Email - roseakinyi001@gmail.com
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
