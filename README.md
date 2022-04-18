@@ -1,5 +1,5 @@
 # GithubSearch
-A single page application for searching github users and repositories. The site uses the Github API to perform searches on Github, and display the results to the users.The website is made using angular js framework, and uses components, custom directives, custom pipes, routing modules and classes to make the finished product.
+A single page application for searching github users and repositories. 
 
 ## Table of Content
 + [Description](#description)
@@ -11,9 +11,8 @@ A single page application for searching github users and repositories. The site 
 + [Authors Info](#aut)
 
 ## Description
-Quotes App is an Angular application that allows users to add quotes,delete quotes. Users can also view hard-coded quotes and their authors. Besides, users can either or dislike quotes based on personal judgement.
-
- ![Screenshot] (<img src="screenshot img/Screenshot from 2022-03-21 00-18-35.png">)
+A single application thats used for searching git hub users and repositories
+The site uses the Github API to perform searches on Github, and display the results to the users.The website is made using angular js framework, and uses components, custom directives, custom pipes, routing modules and classes to make the finished product.
 
 ## Technology Used
 * Angular CLI
