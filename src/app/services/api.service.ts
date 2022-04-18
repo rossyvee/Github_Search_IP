@@ -10,7 +10,11 @@ export class ApiService {
 
   constructor(private http: HttpClient) { }
 
-  searchUsername(username:String): Observable<any> {
+  searchUsername(username:string): Observable<any> {
     return this.http.get(environment.apiUrl+"/search/users?q="+username)
+  }
+
+  fetchUser(username:string): Observable<any>{
+    return this.http.get(environment.apiUrl+"/users/"+username)
   }
 }
