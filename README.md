@@ -38,12 +38,12 @@ User clicks Upvote
 Upvote increases by +1 on each click
 User clicks Downvote
 Downvote decreases by -1 on each click
-[live-link](https://github.com/rossyvee/Angular-quotes-app)
+[live-link](https://github.com/rossyvee/Github_Search_IP)
 ## Known Bugs
 * There are no known bugs currently. The page works as expected
 ## Reference
   ### The reference materials used in this project can be accessed though this link
-  * [Resource](https://moringaschool.instructure.com/courses/618/assignments/9618)
+  * [Resource](https://moringaschool.instructure.com/courses/618/assignments/9620?confetti=true&submitted=0)
   ## Licence
 MIT License
 Copyright (c) [2022] [Roseline Akinyi]
