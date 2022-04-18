@@ -19,10 +19,9 @@ The site uses the Github API to perform searches on Github, and display the resu
 * Typescript
 * HTML5
 * CSS
-* JavaScript
+* angular js
 * Node
 * Bootsrap
-* FontAwesome
 
 ## Requirements
 * A good internet connection
