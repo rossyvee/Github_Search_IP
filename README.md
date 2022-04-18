@@ -21,7 +21,7 @@ The site uses the Github API to perform searches on Github, and display the resu
 * CSS
 * angular js
 * Node
-* Bootsrap
+* Bootstrap
 
 ## Requirements
 * A good internet connection
