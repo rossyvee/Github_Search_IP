@@ -2,3 +2,18 @@
     <p class="text-info">User information</p>
     <div class="alert alert-info text-center">Fetching user information, please wait</div>
 </div>
+
+<div class="row">
+    <div class="row">
+        <div class="col-md-6 col-sm-12">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" [src]="userinfo.avatar_url" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">{{userinfo.login}}</h5>
+                  <p class="card-text">userinfo.create_at</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>

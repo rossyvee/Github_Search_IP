@@ -17,4 +17,12 @@ export class ApiService {
   fetchUser(username:string): Observable<any>{
     return this.http.get(environment.apiUrl+"/users/"+username)
   }
+
+  fetchFollowers(username:string): Observable<any>{
+    return this.http.get(environment.apiUrl+"/followers/"+username)
+  }
+
+  fetchRepositories(username:string): Observable<any>{
+    return this.http.get(environment.apiUrl+"/followers/"+username)
+  }
 }
