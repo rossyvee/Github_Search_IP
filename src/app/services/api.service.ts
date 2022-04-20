@@ -23,6 +23,6 @@ export class ApiService {
   }
 
   fetchRepositories(username:string): Observable<any>{
-    return this.http.get(environment.apiUrl+"/followers/"+username)
+    return this.http.get(environment.apiUrl+"/users/"+username+"/repos")
   }
 }
